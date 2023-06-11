@@ -1,0 +1,29 @@
+.litlecard {
+    display: grid;
+    max-width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 24px;
+    gap: 24px;
+}
+
+.litlecard__item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(193, 197, 205, 1);
+    border-radius: 16px;
+    overflow: hidden;
+        background: #FFFFFF;
+}
+
+.bord {
+    padding: 16px 16px 58px 16px;
+}
+
+.food {
+    width: 197px;
+}
+

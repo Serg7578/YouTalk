@@ -1,0 +1,127 @@
+.cardbig {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+/* Элементы (карточки) */
+.cardbig__item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(193, 197, 205, 1);
+    border-radius: 16px;
+    overflow: hidden;
+    background: #FFFFFF;
+}
+
+/* Картинки в карточках  */
+.cardbig__img {
+    width: 100%;
+
+}
+
+/* Наклейка- Самооценка */
+.cardbig__stick_my {
+    border: 1px solid rgba(193, 197, 205, 1);
+    width: 261px;
+    height: 32px;
+    display: flex;
+    border-radius: 24px;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    padding: 6px 8px;
+    background: linear-gradient(0deg, #C1C5CD, #C1C5CD),
+        linear-gradient(0deg, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7));
+    gap: 4px;
+}
+
+/* Ссылка наклейки- Самооценка */
+.cardbig__stick_my a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(51, 51, 51, 1);
+    line-height: 20px;
+}
+
+/* Наклейка Self */
+.cardbig__stick_self {
+    border: 1px solid rgba(193, 197, 205, 1);
+    width: 84px;
+    height: 32px;
+    display: flex;
+    border-radius: 24px;
+    position: absolute;
+    top: 49px;
+    left: 8px;
+    padding: 6px 8px;
+    background: linear-gradient(0deg, #C1C5CD, #C1C5CD),
+        linear-gradient(0deg, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7));
+    gap: 4px;
+    align-items: center;
+}
+
+/* Отступ для Наклейки на вторую карточку */
+.dubble {
+    top: 8px;
+    /* Проверить */
+}
+
+/* Ссылка для наклейки Self */
+.cardbig__stick_self a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    color: rgba(51, 51, 51, 1);
+}
+
+/* Текстовый блок карточек */
+.cardbig__wrap {
+    padding: 16px 16px 102px 16px;
+}
+
+/* Ссылка карточки */
+.cardbig__title {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    text-decoration: none;
+    color: rgba(51, 51, 51, 1);
+}
+
+/* Автор на карточке */
+.cardbig__autor {
+    font-size: 12px;
+    font-weight: 400;
+    color: #494949;
+    margin: 0;
+    padding-top: 4px;
+    line-height: 18px;
+    letter-spacing: .25px;
+}
+
+/* Текст на карточке */
+.cardbig__text {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+    padding-top: 8px;
+    line-height: 20px;
+}
+
+/* Дата на карточке */
+.cardbig__data {
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.25px;
+    color: #868686;
+    position: absolute;
+    bottom: 16px;
+    margin: 0;
+}
+
